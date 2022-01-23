@@ -1,5 +1,18 @@
 body{
-    margin: 0;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+.our-package{
+    margin-bottom: 100px;
+}
+.popular{
+    background-color: #3F87F5;
+    color: white;
+    transform: scale(1.1);
+}
+.hot-button{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    padding: 3px 10px;
+    border
 }
