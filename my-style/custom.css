@@ -11,8 +11,11 @@ body{
 }
 .hot-button{
     position: absolute;
-    top: 0px;
-    right: 30px;
-    padding: 3px 10px;
-    border
+    top: 0%;
+    right: 10%;
+    display: inline;
+}
+.app-logo img{
+    height: 50px;
+    width: 135px;
 }

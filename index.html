@@ -68,7 +68,7 @@
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./my-image/img-2.jpg" class="d-block img-fluid" alt="...">
+                    <img src="./my-image/image2.jpg" class="d-block img-fluid" alt="...">
                     <div class="carousel-caption d-none d-sm-block">
                       <h1 class="fs-1 fw-bold text-white">The perfect venue for your next event</h1>
                       <p class="text-white">Some representative placeholder content for the second slide.</p>
@@ -100,9 +100,9 @@
     <!-- main content start  -->
     <main>
         <!-- our package section -->
-        <section class="container pt-5 mb-5">
+        <section class="container py-5">
             <h1 class="text-center fw-bold our-package">Our package</h1>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-5">
                 <div class="col">
                   <div class="card h-100 p-2 border-0 shadow rounded-3">
                     <h1 class="fw-bold ms-3 pt-2">$300</h1>
@@ -144,7 +144,10 @@
                 <div class="col">
                     <div class="card h-100 p-2 border-0 shadow rounded-3 popular">
                         <h1 class="fw-bold ms-3 pt-2">$800</h1>
-                        <span class="bg-danger text-white hot-button rounded-pill fw-bold">Hot</span>
+                        <button type="button" class="btn position-absolute hot-button">
+                            <span class="position-absolute translate-middle badge rounded-pill bg-danger">
+                              Hot</span>
+                          </button>
                         <div class="card-body">
                           <h2 class="card-title fw-bold text-capitalize pb-3">Wedding plus</h2>
                           <p class="card-text">For most weddings with premium plans</p>
@@ -182,11 +185,83 @@
                 </div>
               </div>
         </section>
+        <!-- question section -->
+        <section class="container py-5">
+            <h1 class="text-center fw-bold our-package">Frequently Asked Questions</h1>
+            <div class="text-center d-lg-flex justify-content-lg-between align-items-center">
+                <div class="w-50 me-2 pb-4">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What’s the difference between event design and event planning? 
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body wrap">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How early do we need to start planning an event
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is your refund and cancellation policy?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How do you keep budgets on track?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="">
+                    <img class="img-fluid" src="./images/people.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
     <!-- main content end -->
 
-    <footer>
-
+    <!-- footer section  -->
+    <footer class="bg-dark text-white py-3 w-fluid">
+        <div class="container text-center">
+            <div class="app-logo order-first fs-5 pb-5">
+                <p>Get the App</p>
+                <a target="-blank" href="https://apps.apple.com/in/app/facebook/id284882215"><img class="pb-2" src="./my-image/app-store.png" alt=""></a>
+                <br>
+                <a target="-blank" href="https://play.google.com/store/apps/details?id=learn.programming.courses&hl=en&gl=US"><img class="" src="./my-image/g-play.png" alt=""></a>
+            </div>
+            <div class="order-last">
+                <small>© 2025 Shakil Ahmed. All rights reserved</small>
+            </div>
+        </div>
     </footer>
 
     <!-- bootstrap script link -->
