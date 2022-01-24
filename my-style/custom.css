@@ -1,6 +1,10 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.toast-img img{
+    width:30px;
+    height: 30px;
+}
 .our-package{
     margin-bottom: 100px;
 }
