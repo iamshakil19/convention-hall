@@ -1,9 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.carousel-caption{
- 
-}
 .toast-style{
     position: absolute;
     right: 10px;
@@ -26,10 +23,10 @@ body{
     right: 10%;
     display: inline;
 }
+.detail-icon{
+    font-size: 50px;
+}
 .app-logo img{
     height: 50px;
     width: 135px;
-}
-.detail-icon{
-    font-size: 50px;
 }
