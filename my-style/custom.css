@@ -1,6 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.carousel-caption{
+ 
+}
+.toast-style{
+    position: absolute;
+    right: 10px;
+}
 .toast-img img{
     width:30px;
     height: 30px;
